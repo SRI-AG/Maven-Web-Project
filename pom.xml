@@ -78,8 +78,21 @@
 			<version>${spring.version}</version>
 		</dependency>
   </dependencies>
-
+	
 	<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>pullareddy-PC-releases</name>
+        <url>http://localhost:9005/artifactory/maven-web-jfrog</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>pullareddy-PC-snapshots</name>
+        <url>http://localhost:9005/artifactory/maven-web-jfrog</url>
+    </snapshotRepository>
+</distributionManagement>
+	
+	<!--<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
@@ -90,7 +103,7 @@
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
 	      <url>http://localhost:9090/mithuntechnologies/repository/maven-snapshots</url>
 	    </snapshotRepository>
-	</distributionManagement>
+	</distributionManagement>-->
 	
 	
   <build>
