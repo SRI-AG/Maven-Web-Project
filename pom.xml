@@ -81,12 +81,12 @@
 	
 	<distributionManagement>
     <repository>
-        <id>central</id>
+        <id>jfrog</id>
         <name>pullareddy-PC-releases</name>
         <url>http://localhost:9005/artifactory/maven-web-jfrog</url>
     </repository>
     <snapshotRepository>
-        <id>snapshots</id>
+        <id>jfrog</id>
         <name>pullareddy-PC-snapshots</name>
         <url>http://localhost:9005/artifactory/maven-web-jfrog</url>
     </snapshotRepository>
